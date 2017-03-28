@@ -1,0 +1,13 @@
+After webpack we are now going to install babel-core babel-loader webpack-dev-server babel-preset-es2015 babel-polyfill threough npm
+
+babel-core is the main module which converts es6 to js.
+
+babel-loader accomplishes transformation
+
+webpack-dev-server allows us to have automatic live code updates.
+
+babel-preset-es2015 allow us to specify preset for webpack
+
+babel-polyfill is a piece of code that provides the tech that developer expects the browser to provide natively. So it expects es6 and babbel code as JS code even though browsers dont support it.
+
+Now we need to load these in webpack.config.js so we use module loaders
