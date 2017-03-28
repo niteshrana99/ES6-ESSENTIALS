@@ -1,0 +1,11 @@
+In ES6 we replace var keyword with let and const. const prevents reassignment and redeclaration but doesnot necessarily prevent us from manipulating that data. Ex. we can use push or pop in an const array. So methods that manipulate the data without reassignment will still work.
+
+Now we see a very important diff btw let and war. let has block scoping. var dosen't use block scopes. const also enable block scoping.
+
+Another feature is template literals. It is done by using backtics(``).
+
+spread operator:{...}
+
+rest parameters:function(...){}
+
+Spread opearator in ES6 is a new way of manipulatinng objects and arrays.
